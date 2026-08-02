@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Password Manager App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">PassX</div>
+
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Password Manager</h1>
+        <p>
+          Save your website login details in one place. This project uses
+          browser localStorage, so use it only for practice, not real passwords.
+        </p>
+      </section>
+
+      <section class="password-section">
+        <h2>Your Passwords <span id="copied">Copied!</span></h2>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+
+            <tbody id="passwordTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <h2>Add a Password</h2>
+
+        <form id="passwordForm">
+          <label for="website">Website</label>
+          <input type="text" id="website" required placeholder="example.com" />
+
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            required
+            placeholder="your username"
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            required
+            placeholder="your password"
+          />
+
+          <button class="btn" type="submit">Save Password</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
