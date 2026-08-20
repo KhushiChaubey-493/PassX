@@ -64,7 +64,10 @@ The application uses browser Local Storage for data persistence.
 
 ## 🌐 Live Demo
 
-[Live Demo] https://github.com/KhushiChaubey-493/PassX
+[Live Demo]
+
+https://khushichaubey-493.github.io/PassX/
+
 
 ## 📸 Screenshots
 
