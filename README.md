@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ff25409f-52d9-48e0-b86d-373dd95c8a44" /><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/61f73c7b-fc4c-4e81-9c0e-b5e83d926eee" /># 🔐 PassX Password Manager
+# 🔐 PassX Password Manager
 
 A browser-based password management application built with **HTML, CSS, and JavaScript** for storing and managing credentials using browser Local Storage.
 
