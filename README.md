@@ -10,6 +10,9 @@ The application allows users to manage stored credential information directly wi
 
 > **Security note:** This project is intended as a learning project. Credentials stored in browser Local Storage should not be considered secure storage for real-world sensitive passwords.
 
+🌐 Live
+https://khushichaubey-493.github.io/PassX/
+
 ## ✨ Features
 
 * Add credential information
